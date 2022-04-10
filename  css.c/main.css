@@ -1,0 +1,200 @@
+body {
+    font-size: 15px;
+    color: #201b2d;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-family: 'Ubuntu',
+        sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-weight: 700;
+}
+
+.conteiner {
+    width: 1170px;
+    display: contents center;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 190, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 190, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 190, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 190, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 190, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 190, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 190, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebefe', endColorstr='#3790d9', GradientType=1);
+    padding-top: 62px;
+    color: #fff;
+    padding-bottom: 145px;
+}
+
+.logo {
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 148px;
+    width: 555px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 51px;
+
+}
+
+.info {
+    font-family: 'Montserrat',
+        sans-serif;
+    margin-top: 45px;
+    font-size: 16px;
+    margin-bottom: 46px;
+    width: 410px;
+    line-height: 30px;
+}
+
+.btn {
+    background: #ffd429;
+    color: #000;
+    font-family: 'Montserrat',
+        sans-serif;
+    border: 100px;
+    display: block;
+    width: 222px;
+    padding: 21px 26px 23px 28px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.onetext {
+    padding-top: 108px;
+    text-align: center;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-size: 30px;
+
+}
+
+.thretravel {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 177px;
+}
+
+.howtitle {
+    font-size: 19px;
+}
+
+.howtext {
+    margin-top: 17px;
+}
+
+.howtraveling {
+    border: #000 sol;
+    width: 210px;
+    text-align: center;
+    /* width: 210px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; */
+}
+
+.palyma {
+    width: 210px;
+    text-align: center;
+
+}
+
+.rocket {
+    width: 210px;
+    text-align: center;
+
+}
+
+.thretravel h3 {
+    padding-top: 30px;
+}
+
+.mail {
+    background: #ecf3f8;
+    text-align: center;
+}
+
+.email {
+    display: block;
+    width: 340px;
+    padding-top: 57px;
+    padding-bottom: 106px;
+    /* padding: 44px 26px 23px 28px; */
+    text-align: center;
+    margin-left: 414px;
+}
+
+input {
+    text-align: right;
+    font-family: 'Montserrat',
+        sans-serif;
+    border-radius: 10px;
+    display: block;
+    width: 340px;
+    padding: 21px 26px 23px 28px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.email button {
+    width: 340px;
+}
+
+.footer {
+    background: #164d7a;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.finis {
+    color: #fff;
+    margin: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
